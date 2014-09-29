@@ -1,3 +1,7 @@
+* {
+	border: 1px solid orange;
+}
+
 body {
 	width: 900px;
 	position: relative;
@@ -15,4 +19,11 @@ footer {
 	position: absolute;
 	bottom: 0px;
 	float: right; 
+}
+
+
+/*--------- Our Story -----------*/
+
+#our_story {
+	height: 500px;
 }

@@ -3,7 +3,11 @@ require 'mandrill'
 
 get '/' do  
 	erb :index 
-end 
+end
+
+get '/story' do
+	erb :ourStory
+end
 
 # post '/contact' do
 #  	m = Mandrill::API.new
@@ -19,7 +23,5 @@ end
 # 	puts 'my params are' + params.inspect 
 # end
 
-get '/story' do
-	erb :ourStory
-end
+
  
