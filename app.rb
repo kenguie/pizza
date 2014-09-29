@@ -12,7 +12,7 @@ post '/contact' do
 	 :from_name=> params[:name], 
 	 :text=>params[:comment],
 	 :to=>[{:email=> "nyhunter77@yahoo.com", :name=> "Ken"}], 
-	 :html=>"<html><h1>Hi <strong>message</strong>, #{:comment}</h1></html>", 
+	 :html=>"<html><h1>Hi <strong>message</strong>, #{params[:comment]}</h1></html>", 
 	 :from_email=>params[:email] 
 	} 
 	sending = m.messages.send message 
