@@ -7,16 +7,45 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
+
 #banner {
 	position: fixed;
+	top: -2px;
+	width: 100%;
+	max-width: 900px;
+	height: 100px;
+	font-size: 40px;
+	background-color: lightblue;
+	z-index: 100;
+	text-align: center;
+
 }
 nav {  
-	position: fixed;
-	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+	max-width: 900px;
+	font-size: 20px; 
+	display: inline-block; 
+	
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	width: 18%;
+	float: left; 
+}
+
+a{
+	text-decoration: none;
+	color: #444;
 }
 
 section {
 	width: 100%;
+	z-index: 1;
 }
 
 footer {
@@ -29,5 +58,7 @@ footer {
 /*--------- Our Story -----------*/
 
 #our_story {
+	position: relative;
+	top: 100px;
 	height: 500px;
 }
