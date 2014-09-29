@@ -17,11 +17,15 @@ get '/locations' do
 	erb :locations
 end
 
+get '/order' do
+	erb :order
+end
+
 # post '/contact' do
 #  	m = Mandrill::API.new
 # 	message = { 
 # 	 :subject=> "comment", 
-# 	 :from_name=> params[:name], 
+# 	 :from_name=> params[:name],  add quotes to name, it's not a symbol 
 # 	 :text=>params[:comment],
 # 	 :to=>[{:email=> "nyhunter77@yahoo.com", :name=> "Ken"}], 
 # 	 :html=>"<html><h1>Hi <strong>message</strong>, #{params[:comment]}</h1></html>", 

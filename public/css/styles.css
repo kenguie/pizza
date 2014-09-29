@@ -83,6 +83,21 @@ footer {
 
 /*--------- LOCATIONS -----------*/
 
+/*--------- Orders -----------*/
+
+#order .pizza img {
+	/*float: left;*/
+	
+}
+
+#order .pepperoni img {
+	/*float: left;*/
+	
+}
+
+#order .pizzaCake img {
+	/*float: left;*/
+}
 
 
 
