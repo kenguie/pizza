@@ -2,7 +2,9 @@ require 'sinatra'
 
 get '/' do 
 	erb :index
-end 
+end
 
-
+get '/story' do
+	erb :ourStory
+end
  
