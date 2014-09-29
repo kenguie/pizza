@@ -62,3 +62,11 @@ footer {
 	top: 100px;
 	height: 500px;
 }
+
+#our_story .story {
+	text-indent: 50px;
+}
+
+#our_story .history {
+	text-indent: 50px;
+}
