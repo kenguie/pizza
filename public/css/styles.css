@@ -6,9 +6,12 @@ body {
 	width: 900px;
 	position: relative;
 }
-
-nav {
+#banner {
 	position: fixed;
+}
+nav {  
+	position: fixed;
+	display: inline-block;
 }
 
 section {
