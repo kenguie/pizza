@@ -9,6 +9,14 @@ get '/story' do
 	erb :ourStory
 end
 
+get '/menu' do
+	erb :menu
+end
+
+get '/locations' do
+	erb :locations
+end
+
 # post '/contact' do
 #  	m = Mandrill::API.new
 # 	message = { 
