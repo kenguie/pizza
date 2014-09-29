@@ -2,7 +2,7 @@ require 'sinatra'
 require 'mandrill' 
 
 get '/' do  
-	erb :index
+	erb :index 
 end 
 
 post '/contact' do
@@ -16,7 +16,10 @@ post '/contact' do
 	 :from_email=>params[:email] 
 	} 
 	sending = m.messages.send message 
-	puts 'my params are' + params.inspect
+	puts 'my params are' + params.inspect 
 end
 
+get '/story' do
+	erb :ourStory
+end
  
