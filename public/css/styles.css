@@ -22,6 +22,7 @@ h1 {
 	margin: 0 auto;
 	position: relative;
 	background-color:rgba(255,255,255,0.25);
+	z-index:1;
 
 }
 
@@ -78,6 +79,10 @@ footer {
 	position: absolute;
 	bottom: 0px;
 	float: right; 
+	height:50px;
+	width:100%;
+	z-index:1;
+	background-color:#333;
 }
 
 
@@ -127,3 +132,11 @@ footer {
 
 
 /*--------- REVIEWS -----------*/
+#reviews {
+	height:200px;
+}
+
+#reviews form {
+	display:block;
+}
+
