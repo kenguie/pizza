@@ -100,11 +100,23 @@ footer {
 
 #our_story .history {
 	text-indent: 50px;
+	width: 800px;
+	margin: 0 auto;
+	line-height: 1.5em;
+	padding-top: 10px;
 }
 
+#our_story .picContainer img {
+	height: 175px;
+	display: block;
+	margin: 0 auto;
+}
 
 /*--------- MENU -----------*/
 
+#menu h1 {
+	text-indent: 50px;
+}
 
 #menu li {
 	list-style: none;
@@ -112,6 +124,10 @@ footer {
 
 
 /*--------- LOCATIONS -----------*/
+
+#locations h1 {
+	text-indent: 50px;
+}
 
 /*--------- Orders -----------*/
 
@@ -132,6 +148,10 @@ footer {
 
 
 /*--------- REVIEWS -----------*/
+#reviews h1 {
+	text-indent: 50px;
+}
+
 #reviews {
 	height:200px;
 }
