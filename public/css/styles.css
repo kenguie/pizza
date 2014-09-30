@@ -29,14 +29,14 @@ body {
 #garlic{
 	z-index: 5;
 	position: absolute;
-	right: -50px;
+	right: 0px;
 	top: 500px;
 }
 
 #roller{
 	z-index: 5;
 	position: absolute;  
-	top: 1800px;
+	top: 2100px;
 	right: 0px;
 	
 }
