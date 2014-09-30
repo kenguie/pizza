@@ -30,7 +30,7 @@ body {
 	z-index: 5;
 	position: absolute;
 	right: 0px;
-	top: 500px;
+	top: 400px;
 }
 
 #roller{
@@ -130,7 +130,7 @@ footer p {
 
 #our_story {
 	position: relative;
-	height: 500px;
+	height: 400px;
 	padding-top: 100px;
 }
 
@@ -154,6 +154,9 @@ footer p {
 
 /*--------- MENU -----------*/
 
+#menu {
+	height: 900px;
+}
 
 #menu h1 {
 	padding-top: 100px;
@@ -170,7 +173,12 @@ footer p {
 	display: inline-block;
 	width: 400px;
 	list-style: none;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#menu .description li:first-child {
+	font-weight: bold;
 }
 
 
