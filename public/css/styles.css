@@ -49,10 +49,10 @@ nav {
 	width: 100%;
 	text-decoration: none;
 	max-width: 900px;
-	font-size: 20px; 
-	display: inline-block; 
+	font-size: 1em; 
+/*	display: inline-block; */
 	position:relative;
-	top:-30px;
+	top:-15px;
 	
 }
 
@@ -61,8 +61,18 @@ nav ul{
 }
 
 nav ul li{
-	width: 18%;
-	float: left; 
+/*	width: 18%;*/
+/*	float: left;*/ 
+	display: inline-block;
+	text-align:center;
+	letter-spacing: 3px;
+	padding-right: 30px;
+	text-transform: lowercase;
+
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
 }
 
 a{
@@ -98,6 +108,7 @@ footer p {
 	position: relative;
 	top: 100px;
 	height: 500px;
+	padding-top: 100px;
 }
 
 #our_story .story {
@@ -120,6 +131,9 @@ footer p {
 
 /*--------- MENU -----------*/
 
+#menu {
+	padding-top: 100px;
+}
 
 
 #menu h1 {
@@ -147,9 +161,13 @@ footer p {
 	height: 200px;
 }
  
+#locations {
+	padding-top: 100px;
+}
 
 #locations h1 {
 	text-indent: 50px;
+
 }
 
 /*--------- Orders -----------*/
@@ -194,4 +212,3 @@ textarea{
 	height: 100px;
 	width: 650px;
 }
-
