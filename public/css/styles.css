@@ -170,7 +170,12 @@ footer p {
 	display: inline-block;
 	width: 400px;
 	list-style: none;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#menu .description li:first-child {
+	font-weight: bold;
 }
 
 
