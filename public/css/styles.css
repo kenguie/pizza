@@ -67,10 +67,11 @@ h1 {
 	width: 100%;
 	max-width: 900px;
 	height: 100px;
-	background: linear-gradient(to right, #74C7AE,white, white, rgb(236, 152, 148));
+	/*background: linear-gradient(to right, #74C7AE,white, white, rgb(236, 152, 148));*/
+	background-image: url(../images/pizzaGuyg.jpg);
 	z-index: 100;
 	text-align: center;
-
+	opacity: .75;
 }
 nav {  
 	width: 100%;
