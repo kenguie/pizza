@@ -154,6 +154,9 @@ footer p {
 
 /*--------- MENU -----------*/
 
+#menu {
+	height: 900px;
+}
 
 #menu h1 {
 	padding-top: 100px;
