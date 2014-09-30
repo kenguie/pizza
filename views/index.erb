@@ -9,9 +9,10 @@
 </head>
 <body>
 <!-- 	<img id="background-image" src="images/wood_background.jpg"> -->
+
 	<div id="wrapper">
 		<div id="banner_bg"></div>
-		<div id="banner">
+		<div id="banner"> 
 		<h1>LE PIZZA SHOPPE</h1>
 			<nav> 
 				<ul>
@@ -49,33 +50,43 @@
 					<img src="images/pizza-cake.png"/>
 					<li>Specialty Pizza</li>
 				</ul>
-		</section>
-
-		<section id="order">Order Online</section>
+		</section> 
 
 		<section id="locations">
 			<h1>LOCATIONS</h1>
 				<ul>
-					<li>Italy</li>
-					<li>Sweden</li>
-					<li>New York City</li>
-					<li>Chicago</li>
-					<li>U.K.</li>
+					<div class="location"><li>Italy</li><img src="images/italy.jpg"></div>
+					<div class="location"><li>Sweden</li><img src="images/sweden.jpg"></div>
+					<div class="location"><li>New York City</li><img src="images/nyc.jpg"></div>
+					<div class="location"><li>Chicago</li><img src="images/chicago.jpg"></div>
+					<div class="location"><li>U.K.</li><img src="images/uk.jpg"></div>
 				</ul>
 		</section>
 
 		<section id="reviews"><h1>REVIEWS</h1>
 			<form method="POST">
-				<label for="email">Email</label>
-				<input type="text" name="email"></input>
-				<label for="name">Name</label>
-				<input type="text" name="name"></input>
-				<label for="comment">Rave & Rants</label>
-				<textarea type="textarea" name="comment"></textarea> 
-				<input type="submit"> 
+				<div>
+					<label for="email">Email</label>
+					<br>
+					<input type="text" name="email"></input>
+				</div>	
+				<div>
+					<label for="name">Name</label>
+					<br>
+					<input type="text" name="name"></input>
+				</div>	
+				<div>
+					<label for="comment">Rave & Rants</label>
+					<br>
+					<textarea type="textarea" name="comment"></textarea> 
+					<br>
+					<input type="submit"> 
+				</div>	
 			</form>
 		</section>
-		<footer>The Pizza Shoppe &copy; All Rights Reserved 2014</footer>
+		<footer>
+			<p>Le Pizza Shoppe &copy; All Rights Reserved 2014</p>
+		</footer>
 	</div>
 </body>
 </html>
