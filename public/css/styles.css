@@ -29,7 +29,6 @@ h1 {
 #background-image {
 	z-index:0;
   	width:100%;
-/*  	height:100%;*/
 	background-repeat:repeat;
   }
 
@@ -39,7 +38,6 @@ h1 {
 	width: 100%;
 	max-width: 900px;
 	height: 100px;
-/*	font-size: 40px;*/
 	background: linear-gradient(to right, #74C7AE,white, white, rgb(236, 152, 148));
 	z-index: 100;
 	text-align: center;
@@ -50,7 +48,6 @@ nav {
 	text-decoration: none;
 	max-width: 900px;
 	font-size: 1em; 
-/*	display: inline-block; */
 	position:relative;
 	top:-15px;
 	
@@ -60,9 +57,7 @@ nav ul{
 	list-style-type: none;
 }
 
-nav ul li{
-/*	width: 18%;*/
-/*	float: left;*/ 
+nav ul li{ 
 	display: inline-block;
 	text-align:center;
 	letter-spacing: 3px;
@@ -150,15 +145,35 @@ footer p {
 	list-style: none;
 	display: inline-block;
 	text-align: center;
+	margin-top:-55px;
 
 }
 
 .location img{
-	padding: 20px;
+/*	padding: 20px;*/
 	padding-left: 40px;
 	width: 80%;
 	height: 200px;
 }
+
+.location .text {
+		position:relative;
+		top:230px;
+		left:60px;
+		font-size: 30px;
+		color:#fff;
+		width:323px;
+		padding: 20px 1px 20px 1px;
+		text-transform: uppercase;
+		text-align:center;
+		background: rgba(0,0,0,0.8);
+		visibility:hidden;
+}
+
+.location:hover .text {
+	visibility:visible;
+}
+
  
 #locations {
 	padding-top: 100px;
