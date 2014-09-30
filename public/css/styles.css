@@ -30,7 +30,7 @@ body {
 	z-index: 5;
 	position: absolute;
 	right: 0px;
-	top: 500px;
+	top: 400px;
 }
 
 #roller{
@@ -130,7 +130,7 @@ footer p {
 
 #our_story {
 	position: relative;
-	height: 500px;
+	height: 400px;
 	padding-top: 100px;
 }
 
