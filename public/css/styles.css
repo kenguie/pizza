@@ -120,14 +120,21 @@ footer p {
 
 /*--------- MENU -----------*/
 
-
-
 #menu h1 {
 	text-indent: 50px;
 }
 
-#menu li {
+#menu .image {
+	display: inline-block;
+	width: 392px;
+	height: 275px;
+}
+
+#menu .description {
+	display: inline-block;
+	width: 400px;
 	list-style: none;
+	font-size: 1.2em;
 }
 
 
