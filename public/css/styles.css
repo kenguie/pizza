@@ -4,7 +4,7 @@
 }
 
 body {
-	background:url('../images/wood_background.jpg') no-repeat center center fixed;
+	background:url('../images/wood_background2.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -36,7 +36,7 @@ body {
 #roller{
 	z-index: 5;
 	position: absolute;  
-	top: 2200px;
+	top: 2072px;
 	right: 0px;
 	
 }
@@ -50,7 +50,7 @@ h1 {
 	width: 900px;
 	margin: 0 auto;
 	position: relative;
-	background-color:rgba(255,255,255,0.25);
+	background-color:rgba(255,255,255,0.1);
 	z-index:20;
 
 }
